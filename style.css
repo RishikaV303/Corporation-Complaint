@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    /* font family */
+    --text-family: "Poppins", serif;
+    --text-primary: "Josefin Slab", serif;
+    /* font family end */
+
+    /* font weight */
+    --text-regular: 400;
+    --text-medium: 500;
+    --text-bold: 700;
+    --text-semibold: 600;
+    --text-light: 300;
+    /* font weight end */
+
+    /* font size */
+    --text-head: 24px;
+    --text-body: 20px;
+    --button-font: 18px;
+    --button-font-two: 16px;
+    --text-sub-head:32px;
+    
+    /* font size  end*/
+
+    /* color */
+    --primary-color: #00EEFF;
+    --primary-color-two: #007474;
+    --primary-color-three:#10434B;
+    --primary-color-four: #002A2D;
+    --secondary-color: #151515;
+    --main-color: #ADFAFF;
+    --foot-bg:#C6F8FC;
+    --bg-color: #060606;
+    --hover-color: #07636a;
+
+    /* color end */
+
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+/* header start */
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+/* nav start */
+/* nav start */
+header nav {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header .nav-wrap{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header nav .nav-wrap .logo{
+    width: 15%;
+    height: 70%;
+}
+header nav .nav-wrap .logo img {
+    width: 100%;
+    height: 100%;
+}
+header nav .nav-wrap a{
+    text-decoration: none;
+    color: black;
+}
+header nav .nav-wrap #button{
+    background-color: var(--primary-color);
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-family: var(--text-family);
+    font-size: var(--button-font);
+    font-weight: var(--text-semibold);
+    padding: 15px 47px;
+}
+header nav .nav-wrap #button:hover{
+    background-color: var(--hover-color);
+    color: white;
+}
+header nav .nav-wrap .menu_icon {
+    display: none;
+}
+
+header nav .nav-wrap input {
+    display: none;
+}
+header nav .nav-wrap ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav .nav-wrap ul li {
+    list-style: none;
+
+}
+
+header nav .nav-wrap ul li a {
+    text-decoration: none;
+    color: var(--primary-color-two);
+    font-family: var(--text-family);
+}
+
+header nav .nav-wrap ul li a .home {
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--main-color);
+}
+/* nav end */
+
+/* footer start */
+footer{
+    width: 100%;
+    height: 60vh;
+    background-color: var(--foot-bg);
+    font-family: var(--text-family);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer .wrapper{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+footer .wrapper .update{
+    height: 40%;
+    width: 50%;
+    background-color: var(--primary-color-three);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    column-gap: 10px;
+}
+footer .wrapper .update p{
+    color: white;
+}
+footer .wrapper .update input{
+    width: 40%;
+    height: 30%;
+    border-radius: 5px;
+    border: none;
+    padding-left: 15px;
+}
+footer .wrapper .update .subscribe{
+    background-color: #ffffff;
+    width:65%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 1px;
+    border-radius: 10px;
+}
+footer .wrapper .update .subscribe .email{
+    width:55%;
+    padding:10px;
+}
+footer .wrapper .update .subscribe .button{
+    background-color: var(--primary-color);
+    color: var(--primary-color-three);
+    border-radius: 10px;
+    border: none;
+    /* width: 40%;
+    height: 30%; */
+    padding: 10px 55px;
+    font-family: var(--text-family);
+    font-weight: var(--text-medium);
+    cursor: pointer;
+}
+footer .wrapper .update .subscribe .button:hover{
+    background-color: var(--hover-color);
+    color: white;
+}
+footer .wrapper .option ul li a {
+    text-decoration: none;
+    color: var(--primary-color-three);
+}
+footer .wrapper .option ul li a:hover {
+    color: var(--hover-color);
+}
+footer .wrapper .option ul li {
+    list-style: none;
+}
+
+footer .wrapper .bottom .option{
+    width:60%;
+   
+}
+footer .wrapper .bottom .option ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+footer .wrapper .bottom{
+    width: 50%;
+display: flex;
+    justify-content: space-between;
+    align-self: center;
+    gap: 30px;
+}
+footer .wrapper .bottom .icons{
+    display: flex;
+    gap: 10px;
+}
+footer .wrapper .bottom .icons a{
+    color: var(--primary-color-three);
+}
+footer .wrapper .last{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .wrapper .last a{
+    text-decoration: none;
+    color: var(--primary-color-three);
+}
+footer .wrapper .last a:hover{
+    color: var(--hover-color);
+
+}
+footer .wrapper .last .last_child{
+    display: flex;
+    gap: 10px;
+}
+/* footer end */
