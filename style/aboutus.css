@@ -198,7 +198,8 @@ header .container a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+    padding: 30px;
     gap: 20px;
 }
 #section_two .whole .vision .vcontent .vheading h3{
@@ -228,7 +229,8 @@ header .container a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+    padding: 30px;
     gap: 20px;
 }
 #section_two .whole .mission .mcontent .mheading h3{
@@ -268,16 +270,17 @@ header .container a:hover{
 }
 #section_three .wrapper .parent .transparency{
     width: 30%;
-    height: 80%;
+    height: 70%;
     background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: end;
-    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
 }
 #section_three .wrapper .parent .transparency .icon_one{
-    width: 15%;
+    width: 20%;
     height: 30%;
 }
 #section_three .wrapper .parent .transparency .icon_one img{
@@ -290,17 +293,18 @@ header .container a:hover{
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 0px 10px 0px 10px;
 }
 
 #section_three .wrapper .parent .accountability{
     width: 30%;
-    height: 80%;
+    height: 70%;
     background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: end;
+    box-sizing: border-box;
+    padding: 20px;
 }
 #section_three .wrapper .parent .accountability .icon_two{
     width: 20%;
@@ -316,17 +320,19 @@ header .container a:hover{
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 0px 10px 0px 10px;
 }
 
 #section_three .wrapper .parent .justice{
     width: 30%;
-    height: 80%;
+    height: 70%;
     background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: end;
+    box-sizing: border-box;
+    padding: 20px;
+
 }
 #section_three .wrapper .parent .justice .icon_three{
     width: 20%;
@@ -342,7 +348,6 @@ header .container a:hover{
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 0px 10px 0px 10px;
 }
 /* section3 end */
 /* section4 start */
@@ -352,6 +357,7 @@ header .container a:hover{
     font-family: var(--text-family);
     display: flex;
     justify-content: center;
+    /* display: none; */
 }
 #section_four .wrapper{
     width: 90%;
@@ -377,21 +383,26 @@ header .container a:hover{
 #section_four .wrapper .members{
     width: 90%;
     height: 80%;
+}
+#section_four .wrapper .members .wrapper {
+    width: 90%;
+    height: 100%;
     display: flex;
     position: absolute;
     justify-content: center;
     align-items: center;
-    top: 395%;
+    top: 385%;
 }
-#section_four .wrapper .members .personone{
+#section_four .wrapper .members .wrapper .personone{
     width: 20%;
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
 }
-#section_four .wrapper .members .personone .content{
+
+#section_four .wrapper .members .wrapper .personone .content{
     width: 100%;
     height: 10%;
     display: flex;
@@ -401,11 +412,11 @@ header .container a:hover{
     color: white;
 
 }
-#section_four .wrapper .members .personone .personimg{
+#section_four .wrapper .members .wrapper .personone .personimg{
     width: 90%;
     height: 50%;
 }
-#section_four .wrapper .members .personone .personimg img{
+#section_four .wrapper .members .wrapper .personone .personimg img{
     width: 100%;
     height: auto;
 }
