@@ -439,7 +439,7 @@ header .wrapper .container a:hover{
     }
 
     #section_two .gallery {
-        height: 70%;
+        height: 80%;
     }
 }
 
@@ -520,7 +520,7 @@ header .wrapper .container a:hover{
         display: none;
     } */
 
-    header .wrapper nav .nav-wrap ul {
+    /* header .wrapper nav .nav-wrap ul {
         display: flex;
         justify-content: center;
         gap: 30px;
@@ -528,13 +528,13 @@ header .wrapper .container a:hover{
         position: absolute;
         top: -100%;
         right: 0;
-        background-color: #ffffff;
+        background-color: #a26e6e;
         color: black;
         width: 50%;
         height: 85%;
         text-align: center;
         padding: 10px 0;
-    }
+    } */
 
     #check:checked~ul {
         top: 10%;
@@ -581,10 +581,11 @@ header .wrapper .container a:hover{
     #section_two {
         height: 150vh;
     }
-
+    
     #section_two .content h1 {
         font-size: 28px;
     }
+
 }
 
 @media only screen and (max-width:718px) {
@@ -634,6 +635,9 @@ header .wrapper .container a:hover{
 }
 
 @media only screen and (max-width:572px) {
+    #section_two .gallery {
+        height: 60%;
+    }
     #section_three {
         height: 200vh;
     }
@@ -713,7 +717,6 @@ header .wrapper .container a:hover{
 @media only screen and (max-width:475px) {
     #section_two {
         height: 250vh;
-        background-color: cadetblue;
     }
 
     #section_two .gallery .row_one,
@@ -794,7 +797,6 @@ header .wrapper .container a:hover{
 @media only screen and (max-width:345px) {
     #section_two {
         height: 270vh;
-        background-color: rgb(17, 81, 83);
     }
 
     #section_two .content h1 {

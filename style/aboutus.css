@@ -351,75 +351,92 @@ header .container a:hover{
 }
 /* section3 end */
 /* section4 start */
-#section_four{
-    width: 100%;
+#section_four
+{
     height: 70vh;
-    font-family: var(--text-family);
+    width: 100%;
     display: flex;
     justify-content: center;
-    /* display: none; */
+    font-family: var(--text-family);
+}
+#section_four .wrap{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
 }
 #section_four .wrapper{
+    height: 400px;    
     width: 90%;
-    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
 }
 #section_four .wrapper .team{
+    height: 20%;
     width: 100%;
-    height: 70%;
-    background-color: var(--primary-color);
-    color: black;
+    /* background-color: navy; */
     display: flex;
-    justify-content: center;
     align-items: center;
-    position: relative;
+    justify-content: center;
 }
 #section_four .wrapper .team h1{
     font-weight: 900;
-    position: absolute;
-    top: 20px;
-    font-size: 70px;
+    font-size: 50px;
 }
-
 #section_four .wrapper .members{
-    width: 90%;
     height: 80%;
+    width: 100%;
+    font-size: 60px;
 }
-#section_four .wrapper .members .wrapper {
-    width: 90%;
+#section_four .wrapper .members .scroller{
+    height:100%;
+    width: 100%;
+    /* background-color: red;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#section_four .wrapper .members .scroller .person-card{
     height: 100%;
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    top: 385%;
+    width: 18%;
 }
-#section_four .wrapper .members .wrapper .personone{
-    width: 20%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-}
-
-#section_four .wrapper .members .wrapper .personone .content{
+#section_four .wrapper .members .scroller .person-card  .person-image-container{
+    height: 70%;
     width: 100%;
-    height: 10%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    color: white;
-
+    justify-content: center;
+    /* background-color: lightcoral; */
 }
-#section_four .wrapper .members .wrapper .personone .personimg{
+#section_four .wrapper .members .scroller .person-card  .person-image-container img{
+    height: 90%;
     width: 90%;
-    height: 50%;
+    border-radius: 50%;
+    object-fit: contain;
 }
-#section_four .wrapper .members .wrapper .personone .personimg img{
+#section_four .wrapper .members .scroller .person-card  .person-content-container{
+    height: 30%;
     width: 100%;
-    height: auto;
+    /* background-color: navy; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
+#section_four .wrapper .members .scroller .person-card  .person-content-container h1{
+    font-size: 24px;
+    color: white
+}
+#section_four .wrapper .members .scroller .person-card  .person-content-container p{
+    font-size: 18px;
+    color: white;
+}
+
 
 /* section4 end */
 /* section5 start  */
@@ -511,3 +528,534 @@ header .container a:hover{
     font-size: 26px;
 }
 /* section5 end  */
+/* media  */
+@media only screen and (max-width:1169px) {
+    #section_four .wrapper .members .scroller .person-card .person-content-container h1 {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width:1110px) {
+    #section_five .wrapper .storycardone .storyimage {
+        width: 40%;
+    }
+    
+    #section_five .wrapper .storycardtwo .storyimage {
+        width: 40%;
+    }
+    
+}
+@media only screen and (max-width:1078px) {
+    #section_four .wrapper .members .scroller .person-card .person-image-container {
+        height: 60%;
+}
+#section_four .wrapper .members .scroller .person-card{
+    height: 80%;
+}
+#section_four .wrapper .members .scroller .person-card .person-content-container h1 {
+    font-size: 20px;
+}
+#section_four .wrapper .members .scroller .person-card .person-content-container p {
+    font-size: 14px;
+}
+
+}
+@media only screen and (max-width:1000px) {
+    #section_two {
+        width: 100%;
+        height: 160vh;
+    }
+
+    #section_two .whole .vision .vimg {
+        width: 50%;
+    }
+
+    #section_two .whole .vision .vcontent .vpara p {
+        font-size: 14px;
+    }
+
+    #section_two .whole .mission .mcontent .mpara p {
+        font-size: 14px;
+    }
+
+    #section_two .whole .vision .vcontent .vicon {
+        width: 20%;
+        height: 20%;
+    }
+
+    #section_two .whole .vision .vcontent .vicon img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #section_two .whole .mission .mcontent .micon {
+        width: 20%;
+        height: 20%;
+    }
+
+    #section_two .whole .mission .mcontent .micon img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width:983px) {
+    #section_three .wrapper .parent .transparency .content h3 {
+        font-size: 16px;
+    }
+
+    #section_three .wrapper .parent .transparency .content p {
+        font-size: 14px;
+    }
+
+    #section_three .wrapper .parent .accountability .content h3 {
+        font-size: 16px;
+    }
+
+    #section_three .wrapper .parent .accountability .content p {
+        font-size: 14px;
+    }
+
+    #section_three .wrapper .parent .justice .content h3 {
+        font-size: 16px;
+    }
+
+    #section_three .wrapper .parent .justice .content p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:974px) {
+    #section_four .wrapper .members .scroller .person-card .person-content-container h1 {
+        font-size: 18px;
+    }
+    #section_four .wrapper .members .scroller .person-card .person-content-container p {
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width:910px) {
+    #section_two {
+        width: 100%;
+        height: 150vh;
+    }
+
+    #section_two .whole .vision .vcontent .vicon {
+        width: 15%;
+        height: 15%;
+    }
+
+    #section_two .whole .mission .mcontent .micon {
+        width: 15%;
+        height: 15%;
+    }
+
+    #section_two .whole .vision .vcontent .vpara p {
+        font-size: 12px;
+    }
+
+    #section_two .whole .mission .mcontent .mpara p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:897px) {
+    #section_three {
+        height: 100vh;
+    }
+
+    #section_three .wrapper .parent {
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: start;
+        gap: 20px;
+    }
+
+    #section_three .wrapper .parent .transparency {
+        width: 48%;
+        height: 50%;
+    }
+
+    #section_three .wrapper .parent .accountability {
+        width: 48%;
+        height: 50%;
+    }
+
+    #section_three .wrapper .parent .justice {
+        width: 48%;
+        height: 50%;
+    }
+}
+@media only screen and (max-width:878px) {
+    #section_three .wrapper .parent .transparency .content p {
+        font-size: 12px;
+    }
+
+    #section_three .wrapper .parent .accountability .content p {
+        font-size: 12px;
+    }
+
+    #section_three .wrapper .parent .justice .content p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:877px){
+    #section_four .wrapper .members{
+        height: auto;
+        overflow-x: scroll;
+    }
+    #section_four .wrapper .members .scroller{
+        height: 300px;
+        width: 200%;
+        justify-content: start;
+        gap:20px;
+    }
+    #section_four .wrapper .members .scroller .person-card{
+        width: 250px;
+    }
+    #section_four .wrapper .members .scroller .person-card  .person-image-container{
+        height: 60%;
+    }
+    #section_four .wrapper .members .scroller .person-card  .person-content-container{
+        height: 40%;
+    }
+}
+@media only screen and (max-width:809px) {
+    #section_five .wrapper .storycardone .storycontent h1 {
+        font-size: 22px;
+    }
+
+    #section_five .wrapper .storycardtwo .storycontent h1 {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width:800px) {
+    #section_two {
+        width: 100%;
+        height: 140vh;
+    }
+
+    #section_two .whole .vision .vcontent .vicon {
+        width: 15%;
+        height: 15%;
+    }
+
+    #section_two .whole .mission .mcontent .micon {
+        width: 15%;
+        height: 15%;
+    }
+
+    #section_two .whole .vision .vcontent .vheading h1 {
+        font-size: 20px;
+    }
+
+    #section_two .whole .mission .mcontent .mheading h1 {
+        font-size: 20px;
+    }
+
+    #section_two .whole .vision .vcontent .vheading h3 {
+        font-size: 20px;
+    }
+
+    #section_two .whole .mission .mcontent .mheading h3 {
+        font-size: 20px;
+    }
+    #section_three {
+        height: 100vh;
+    }
+
+    #section_three .wrapper .parent {
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: start;
+        gap: 20px;
+    }
+
+    #section_three .wrapper .parent .transparency {
+        width: 48%;
+        height: 50%;
+    }
+
+    #section_three .wrapper .parent .accountability {
+        width: 48%;
+        height: 50%;
+    }
+
+    #section_three .wrapper .parent .justice {
+        width: 48%;
+        height: 50%;
+    }
+
+}
+@media only screen and (max-width:768px) {
+    #section_two {
+        width: 100%;
+        height: 250vh;
+    }
+
+    #section_two .whole .vision {
+        flex-direction: column;
+    }
+
+    #section_two .whole .vision .vimg {
+        height: 50%;
+        width: 70%;
+    }
+
+    #section_two .whole .vision .vcontent {
+        height: 50%;
+        width: 70%;
+    }
+
+    #section_two .whole .mission {
+        flex-direction: column;
+    }
+
+    #section_two .whole .mission .mimg {
+        height: 50%;
+        width: 70%;
+    }
+
+    #section_two .whole .mission .mcontent {
+        height: 50%;
+        width: 70%;
+    }
+
+    #section_two .whole .vision .vcontent .vicon {
+        width: 15%;
+        height: 25%;
+    }
+
+    #section_two .whole .mission .mcontent .micon {
+        width: 15%;
+        height: 25%;
+    }
+}
+@media only screen and (max-width:685px) {
+    #section_five {
+        height: 200vh;
+    }
+
+    #section_five .wrapper .storycardone {
+        width: 80%;
+        height: 45%;
+        flex-direction: column;
+    }
+
+    #section_five .wrapper .storycardone .storycontent {
+        width: 80%;
+        height: 40%;
+    }
+
+    #section_five .wrapper .storycardone .storyimage {
+        width: 80%;
+        height: 50%;
+    }
+
+    #section_five .wrapper .storycardone .storycontent h1 {
+        font-size: 18px;
+    }
+
+    #section_five .wrapper .storycardone .storycontent p {
+        font-size: 14px;
+    }
+
+    #section_five .wrapper .storycardtwo {
+        width: 80%;
+        height: 45%;
+        flex-direction: column-reverse;
+
+    }
+
+    #section_five .wrapper .storycardtwo .storycontent {
+        width: 80%;
+        height: 40%;
+    }
+
+    #section_five .wrapper .storycardtwo .storyimage {
+        width: 80%;
+        height: 50%;
+    }
+
+    #section_five .wrapper .storycardtwo .storycontent h1 {
+        font-size: 18px;
+    }
+
+    #section_five .wrapper .storycardtwo .storycontent p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:653px) {
+    #section_two {
+        width: 100%;
+        height: 230vh;
+    }
+
+    #section_two .whole .vision .vimg {
+        height: 60%;
+        width: 80%;
+    }
+
+    #section_two .whole .vision .vcontent {
+        height: 60%;
+        width: 80%;
+    }
+
+    #section_two .whole .mission .mimg {
+        height: 60%;
+        width: 80%;
+    }
+
+    #section_two .whole .mission .mcontent {
+        height: 60%;
+        width: 80%;
+    }
+
+    #section_two .whole .vision .vcontent .vicon {
+        width: 10%;
+        height: 20%;
+    }
+
+    #section_two .whole .mission .mcontent .micon {
+        width: 10%;
+        height: 20%;
+    }
+
+    #section_two .whole .vision .vcontent .vheading h1 {
+        font-size: 18px;
+    }
+
+    #section_two .whole .mission .mcontent .mheading h1 {
+        font-size: 18px;
+    }
+
+    #section_two .whole .vision .vcontent .vheading h3 {
+        font-size: 18px;
+    }
+
+    #section_two .whole .mission .mcontent .mheading h3 {
+        font-size: 18px;
+    }
+
+    #section_two .whole .vision .vcontent .vpara p {
+        font-size: 10px;
+    }
+
+    #section_two .whole .mission .mcontent .mpara p {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:555px) {
+    #section_three {
+        height: 150vh;
+    }
+
+    #section_three .wrapper .parent {
+        align-content: center;
+        justify-content: center;
+    }
+
+    #section_three .wrapper .parent .transparency {
+        width: 70%;
+        height: 33%;
+    }
+
+    #section_three .wrapper .parent .accountability {
+        width: 70%;
+        height: 33%;
+    }
+
+    #section_three .wrapper .parent .justice {
+        width: 70%;
+        height: 33%;
+    }
+}
+@media only screen and (max-width:494px){
+    #section_four .wrapper .members{
+        height: auto;
+        overflow-x: scroll;
+    }
+    #section_four .wrapper .members .scroller{
+        height: 300px;
+        width: 300%;
+        justify-content: start;
+        gap:20px;
+    }
+    #section_four .wrapper .members .scroller .person-card{
+        width: 200px !important;
+    }
+    #section_four .wrapper .members .scroller .person-card  .person-image-container{
+        height: 60%;
+    }
+    #section_four .wrapper .members .scroller .person-card  .person-content-container{
+        height: 40%;
+    }
+}
+@media only screen and (max-width:470px) {
+    #section_three {
+        height: 150vh;
+    }
+
+    #section_three .wrapper .parent {
+        align-content: center;
+        justify-content: center;
+    }
+
+    #section_three .wrapper .parent .transparency {
+        width: 90%;
+        height: 33%;
+    }
+
+    #section_three .wrapper .parent .accountability {
+        width: 90%;
+        height: 33%;
+    }
+
+    #section_three .wrapper .parent .justice {
+        width: 90%;
+        height: 33%;
+    }
+}
+@media only screen and (max-width:439px) {
+    #section_five .wrapper .storycardone .storycontent h1 {
+        font-size: 16px;
+    }
+
+    #section_five .wrapper .storycardone .storycontent p {
+        font-size: 12px;
+    }
+
+    #section_five .wrapper .storycardtwo .storycontent h1 {
+        font-size: 16px;
+    }
+
+    #section_five .wrapper .storycardtwo .storycontent p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:375px) {
+    #section_five .wrapper .storycardone {
+        width: 100%;
+    }
+
+    #section_five .wrapper .storycardone .storycontent {
+        width: 90%;
+    }
+
+    #section_five .wrapper .storycardone .storyimage {
+        width: 90%;
+    }
+
+    #section_five .wrapper .storycardtwo {
+        width: 100%;
+    }
+
+    #section_five .wrapper .storycardtwo .storycontent {
+        width: 90%;
+    }
+
+    #section_five .wrapper .storycardtwo .storyimage {
+        width: 90%;
+    }
+}
+@media only screen and (max-width:329px){
+    #section_four .wrapper .members .scroller .person-card .person-content-container h1 {
+        font-size: 16px;
+    }
+}

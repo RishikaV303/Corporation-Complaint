@@ -465,6 +465,107 @@
 }
 /* section5 end */
 /* media query */
+/* banner */
+@media only screen and (max-width:784px) {
+
+    .container {
+        background-position: center;
+    }
+
+    .container h1 {
+        width: 55%;
+        font-size: 42px;
+    }
+
+    .container p {
+        width: 50%;
+        font-size: 16px;
+    }
+
+}
+@media only screen and (max-width:691px) {
+
+    .container {
+        background-position: center;
+    }
+
+    .container h1 {
+        width: 65%;
+        font-size: 40px;
+    }
+
+    .container p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:492px) {
+
+    .container {
+        background-position: center;
+    }
+
+    .container h1 {
+        width: 75%;
+        font-size: 40px;
+    }
+
+    .container p {
+        width: 60%;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:409px) {
+
+    .container {
+        background-position: center;
+    }
+
+    .container h1 {
+        /* width: 85%; */
+        font-size: 36px;
+    }
+
+    .container p {
+        width: 70%;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:353px) {
+
+    .container {
+        background-position: center;
+    }
+
+    .container h1 {
+        /* width: 85%; */
+        font-size: 32px;
+    }
+
+    .container p {
+        width: 70%;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:313px) {
+
+    .container {
+        background-position: center;
+    }
+
+    .container h1 {
+        /* width: 85%; */
+        font-size: 30px;
+    }
+
+    .container p {
+        width: 70%;
+        font-size: 12px;
+    }
+}
+
+
+
+
 @media only screen and (max-width:1440px) {
     #section_five .benefits .bcard .bcard_image{
         width: 40%;
@@ -623,8 +724,8 @@
 @media only screen and (max-width:832px) {
     #section_five {
         height: 100vh;
-        background-color: brown;
     }
+   
     #section_five .benefits .bcard{
         width: 30%;
         height: 30%;
@@ -842,6 +943,22 @@
         font-size: 16px;
     }
 }
+@media only screen and (max-width:595px) {
+    #section_five {
+        height: 120vh;
+    }
+    #section_five h1 {
+        font-size: 24px;
+    }
+    #section_five .benefits {
+        justify-content: start;
+        align-content: center;
+    }
+    #section_five .benefits .bcard {
+        width: 36%;
+        height: 24%;
+    }
+}
 
 @media only screen and (max-width:570px) {
     #section_three {
@@ -999,6 +1116,15 @@
         width: 80%;
     }
 }
+@media only screen and (max-width:474px) {
+    #section_five {
+        height: 150vh;
+    }
+    #section_five .benefits .bcard {
+        width: 47%;
+        height: 23%;
+    }
+}
 
 @media only screen and (max-width:383px) {
     #section_three h2 {
@@ -1081,6 +1207,10 @@
     /* 3rd */
     #section_three {
         height: 200vh;
+    }
+    /* 5th */
+    #section_five h1 {
+        font-size: 20px;
     }
 }
 @media only screen and (max-width:357px) {
