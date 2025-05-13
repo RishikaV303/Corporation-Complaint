@@ -24,19 +24,19 @@
     --text-body: 20px;
     --button-font: 18px;
     --button-font-two: 16px;
-    --text-sub-head:32px;
-    
+    --text-sub-head: 32px;
+
     /* font size  end*/
 
     /* color */
     --primary-color: #00EEFF;
     --primary-color-two: #007474;
-    --primary-color-three:#10434B;
+    --primary-color-three: #10434B;
     --primary-color-four: #002A2D;
     --secondary-color: #151515;
     --card-color: #5A9DA2;
     --main-color: #ADFAFF;
-    --foot-bg:#C6F8FC;
+    --foot-bg: #C6F8FC;
     --bg-color: #060606;
     --hover-color: #07636a;
 
@@ -62,9 +62,10 @@ header nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-header .nav-wrap{
+
+header .nav-wrap {
     width: 90%;
     height: 90%;
     display: flex;
@@ -72,16 +73,18 @@ header .nav-wrap{
     align-items: center;
 
 }
-header nav .nav-wrap .logo{
+
+header nav .nav-wrap .logo {
     width: 15%;
     height: 70%;
 }
+
 header nav .nav-wrap .logo img {
     width: 100%;
     height: 100%;
 }
 
-header nav .nav-wrap #button{
+header nav .nav-wrap #button {
     background-color: var(--primary-color);
     color: black;
     border: none;
@@ -91,7 +94,8 @@ header nav .nav-wrap #button{
     font-weight: var(--text-semibold);
     padding: 15px 47px;
 }
-header nav .nav-wrap #button:hover{
+
+header nav .nav-wrap #button:hover {
     background-color: var(--hover-color);
     color: white;
 }
@@ -117,6 +121,7 @@ header nav .nav-wrap ul li a .community {
     border-bottom: 2px solid var(--primary-color);
     color: var(--main-color);
 }
+
 /* nav end */
 /* banner */
 .container {
@@ -152,7 +157,8 @@ header nav .nav-wrap ul li a .community {
     width: 20%;
 
 }
-header .container a{
+
+header .container a {
     text-decoration: none;
     background-color: var(--primary-color);
     color: black;
@@ -161,16 +167,17 @@ header .container a{
     font-family: var(--text-family);
     font-weight: var(--text-semibold);
     font-size: var(--button-font);
-    padding: 10px 15px;  
+    padding: 10px 15px;
 }
-header .container a:hover{
+
+header .container a:hover {
     background-color: var(--hover-color);
     color: white;
 }
 
 /* banner end */
 /* section 2 start */
-#section_two{
+#section_two {
     width: 100%;
     height: 90vh;
     font-family: var(--text-family);
@@ -180,21 +187,25 @@ header .container a:hover{
     justify-content: center;
     align-items: center;
 }
-#section_two h2{
+
+#section_two h2 {
     font-size: 32px;
     text-align: center;
 }
-#section_two h2 .one{
+
+#section_two h2 .one {
     color: var(--primary-color);
 }
-#section_two .story{
+
+#section_two .story {
     width: 100%;
     height: 60%;
     display: flex;
     align-items: center;
     gap: 10px;
 }
-#section_two .story .story_one{
+
+#section_two .story .story_one {
     width: 30%;
     height: 50%;
     background-color: var(--card-color);
@@ -203,7 +214,8 @@ header .container a:hover{
     align-items: center;
     border-radius: 5%;
 }
-#section_two .story .story_one .wrapper{
+
+#section_two .story .story_one .wrapper {
     width: 80%;
     height: 80%;
     display: flex;
@@ -211,24 +223,29 @@ header .container a:hover{
     justify-content: center;
 
 }
-#section_two .story .story_one .wrapper p{
+
+#section_two .story .story_one .wrapper p {
     font-size: 12px;
 }
-#section_two .story .story_one .name{
+
+#section_two .story .story_one .name {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 10px;
 }
-#section_two .story .story_one .wrapper .name .imageone{
+
+#section_two .story .story_one .wrapper .name .imageone {
     width: 15%;
     height: auto;
 }
-#section_two .story .story_one .wrapper .name .imageone img{
+
+#section_two .story .story_one .wrapper .name .imageone img {
     width: 100%;
     height: 100%;
 }
-#section_two .story .story_two{
+
+#section_two .story .story_two {
     width: 40%;
     height: 60%;
     background-color: var(--primary-color);
@@ -238,40 +255,47 @@ header .container a:hover{
     border-radius: 5%;
     color: black;
 }
-#section_two .story .story_two .wrapper p{
+
+#section_two .story .story_two .wrapper p {
     font-size: 12px;
 }
-#section_two .story .story_two .wrapper .name{
+
+#section_two .story .story_two .wrapper .name {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 10px;
 }
-#section_two .story .story_two .wrapper .name .imageone{
+
+#section_two .story .story_two .wrapper .name .imageone {
     width: 12%;
     height: auto;
 
 }
-#section_two .story .story_two .wrapper .name .imageone img{
+
+#section_two .story .story_two .wrapper .name .imageone img {
     width: 100%;
     height: 100%;
 }
-#section_two .story .story_two .wrapper{
+
+#section_two .story .story_two .wrapper {
     width: 80%;
     height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-#section_two .arrow{
+
+#section_two .arrow {
     width: 80%;
     height: 15%;
     display: none;
-    justify-content: space-between ;
+    justify-content: space-between;
     align-items: center;
     display: none;
 }
-#section_two .arrow i{
+
+#section_two .arrow i {
     width: 15%;
     height: 80%;
     font-size: 42px;
@@ -279,9 +303,10 @@ header .container a:hover{
     justify-content: center;
     align-items: center;
 }
+
 /* section 2 end */
 /* section 3 start */
-#section_three{
+#section_three {
     width: 100%;
     height: 100vh;
     font-family: var(--text-family);
@@ -293,10 +318,12 @@ header .container a:hover{
     background-color: rgb(0, 15, 15);
 
 }
-#section_three h2 .two{
+
+#section_three h2 .two {
     color: var(--primary-color);
 }
-#section_three .cards{
+
+#section_three .cards {
     width: 80%;
     height: 80%;
     display: flex;
@@ -304,7 +331,8 @@ header .container a:hover{
     align-items: center;
     gap: 10px;
 }
-#section_three .cards .update{
+
+#section_three .cards .update {
     width: 25%;
     height: 90%;
     background-color: var(--primary-color-four);
@@ -315,15 +343,18 @@ header .container a:hover{
     border-radius: 5px;
     gap: 10px;
 }
-#section_three .cards .update .image{
+
+#section_three .cards .update .image {
     width: 90%;
     height: 40%;
 }
-#section_three .cards .update .image img{
+
+#section_three .cards .update .image img {
     width: 100%;
     height: 100%;
 }
-#section_three .cards .update .content{
+
+#section_three .cards .update .content {
     width: 90%;
     height: 50%;
     display: flex;
@@ -331,15 +362,18 @@ header .container a:hover{
     /* align-items: center; */
     gap: 5px;
 }
-#section_three .cards .update .content h5{
+
+#section_three .cards .update .content h5 {
     height: 15%;
     color: var(--primary-color);
 }
-#section_three .cards .update .content p{
+
+#section_three .cards .update .content p {
     height: 30%;
     font-size: 14px;
 }
-#section_three .cards .update .content a{
+
+#section_three .cards .update .content a {
     background-color: var(--primary-color);
     border-radius: 30px;
     border: none;
@@ -352,6 +386,7 @@ header .container a:hover{
     font-family: var(--text-family);
     font-weight: var(--text-semibold);
 }
+
 /* section 3 end */
 /* section 4 start */
 #section_four {
@@ -362,17 +397,20 @@ header .container a:hover{
     background-size: contain;
     background-repeat: no-repeat;
 }
-#section_four .resourse{
+
+#section_four .resourse {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#section_four .resourse h2{
+
+#section_four .resourse h2 {
     width: 15%;
     text-align: center;
 }
+
 /* section 4 end */
 /* media query */
 @media only screen and (max-width:1364px) {
@@ -381,11 +419,13 @@ header .container a:hover{
     }
 
 }
+
 @media only screen and (max-width:1156px) {
     #section_three .cards .update {
         width: 30%;
     }
 }
+
 @media only screen and (max-width:1100px) {
     #section_two .story .story_one h4 {
         font-size: 12px;
@@ -401,6 +441,7 @@ header .container a:hover{
         width: 35%;
     }
 }
+
 @media only screen and (max-width:892px) {
     #section_three .cards {
         width: 90%;
@@ -482,6 +523,7 @@ header .container a:hover{
         font-size: 14px;
     }
 }
+
 @media only screen and (max-width:697px) {
     #section_three {
         height: 160vh;
@@ -522,13 +564,17 @@ header .container a:hover{
 
     }
 }
+
 @media only screen and (max-width:500px) {
     #section_three {
-        height: 300vh;
+        height: 270vh;
     }
 
     #section_three h2 {
         width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #section_three .cards {
@@ -541,17 +587,28 @@ header .container a:hover{
     }
 
     #section_three .cards .update {
-        width: 95%;
+        width: 90%;
         height: 30%;
     }
 
     #section_four .resourse h2 {
         width: 40%;
     }
+#section_three .cards .update .content {
+    height: 40%;
+}
+    #section_three .cards .update .content h5 {
+        height: 10%;
+        color: var(--primary-color);
+    }
+
     #section_three .cards .update .content p {
+        height: 30%;
         font-size: 15px;
     }
+
 }
+
 @media only screen and (max-width:494px) {
     #section_two .arrow i {
         width: 18%;
@@ -561,10 +618,12 @@ header .container a:hover{
         width: 90%;
         height: 80%;
     }
+
     #section_three .cards .update .content p {
         font-size: 14px;
     }
 }
+
 @media only screen and (max-width:479px) {
     #section_three h2 {
         width: 90%;
@@ -572,6 +631,7 @@ header .container a:hover{
         text-align: center;
     }
 }
+
 @media only screen and (max-width:479px) {
     #section_four .resourse h2 {
         font-size: 24px;
@@ -584,11 +644,13 @@ header .container a:hover{
         font-size: 18px;
         text-align: center;
     }
+
     #section_three p {
         font-size: 14px;
     }
-    
+
 }
+
 @media only screen and (max-width:391px) {
     #section_two .arrow i {
         width: 20%;
@@ -596,11 +658,17 @@ header .container a:hover{
 
     }
 }
+
 @media only screen and (max-width:359px) {
     #section_three h2 {
         width: 95%;
     }
+    
+    #section_three .cards .update .content p {
+        height: 35%;
+    }
 }
+
 @media only screen and (max-width:349px) {
     #section_two .arrow i {
         width: 24%;
@@ -613,11 +681,13 @@ header .container a:hover{
     #section_three h2 {
         font-size: 16px;
     }
+
     #section_three p {
         font-size: 12px;
     }
-    
+
 }
+
 @media only screen and (max-width:333px) {
     #section_four .resourse h2 {
         font-size: 18px;

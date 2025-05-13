@@ -93,6 +93,7 @@ header nav .nav-wrap a{
     text-decoration: none;
     color: black;
 }
+
 header nav .nav-wrap #button{
     background-color: var(--primary-color);
     color: black;
@@ -130,7 +131,9 @@ header nav .nav-wrap ul li a {
     color: var(--primary-color-two);
     font-family: var(--text-family);
 }
-
+  header nav .nav-wrap ul li a:hover{
+    color: var(--main-color);
+    }
 header nav .nav-wrap ul li a .home {
     border-bottom: 2px solid var(--primary-color);
     color: var(--main-color);
@@ -146,6 +149,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 footer .wrapper{
@@ -179,17 +184,14 @@ footer .wrapper .update .email{
 }
 footer .wrapper .update .subscribe{
     background-color: #ffffff;
-    width:65%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 3px;
-    padding-right: 1px;
+    width:57%;
+   padding: 5px;
     border-radius: 10px;
 }
 footer .wrapper .update .subscribe .email{
     outline: none;
     width:55%;
-    padding:10px;
+    /* padding:10px; */
 }
 footer .wrapper .update .subscribe .button{
     background-color: var(--primary-color);
@@ -323,7 +325,7 @@ footer .wrapper .last .last_child{
         background-color: #859393;
         color: black;
         width: 100%;
-        height: 87%;
+        height: 50%;
         text-align: center;
         padding: 10px 0;
         border-radius: 0px 0px 20px 20px;
@@ -332,6 +334,25 @@ footer .wrapper .last .last_child{
 
     #check:checked~ul {
         top: 10%;
+    }
+    header nav .nav-wrap ul li a{
+        font-size: 20px;
+    }
+    header nav .nav-wrap ul li a .home {
+        border: none;
+        font-size: 24px;
+    }
+    header nav .nav-wrap ul li a .aboutus {
+        border: none;
+        font-size: 24px;
+    }
+    header nav .nav-wrap ul li a .volunteer {
+        border: none;
+        font-size: 24px;
+    }
+    header nav .nav-wrap ul li a .community {
+        border: none;
+        font-size: 24px;
     }
     /* header nav .nav-wrap ul li a .aboutus {
         width: 30px;
@@ -459,17 +480,87 @@ footer .wrapper .last .last_child{
     }
 }
 /* footer */
+@media only screen and (max-width:1496px) {
+ footer .wrapper .update .subscribe {
+        width: 58%;
+    }
+}
+@media only screen and (max-width:1473px) {
+ footer .wrapper .update .subscribe {
+        width: 60%;
+    }
+}
+@media only screen and (max-width:1425px) {
+ footer .wrapper .update .subscribe {
+        width: 63%;
+    }
+}
 @media only screen and (max-width:1365px) {
     footer .wrapper .update {
         height: 40%;
-        width: 70%;
+        width: 50%;
     }
     
     footer .wrapper .bottom {
         width: 70%;
     }
 }
-@media only screen and (max-width:991px) {
+@media only screen and (max-width:1357px) {
+ footer .wrapper .update .subscribe {
+        width: 65%;
+    }
+}
+@media only screen and (max-width:1315px) {
+    footer .wrapper .update .subscribe {
+        width: 67%;
+    }
+}
+@media only screen and (max-width:1276px) {
+ footer .wrapper .update {
+        width: 52%;
+    }
+}
+@media only screen and (max-width:1225px) {
+     footer .wrapper .update .subscribe {
+        width: 63%;
+    }
+}
+@media only screen and (max-width:1169px) {
+     footer .wrapper .update .subscribe {
+        width: 65%;
+    }
+}
+@media only screen and (max-width:1133px) {
+     footer .wrapper .update .subscribe {
+        width: 67%;
+    }
+}
+@media only screen and (max-width:1100px) {
+     footer .wrapper .update {
+        width: 60%;
+    }
+     footer .wrapper .update .subscribe {
+        width: 65%;
+    }
+}
+@media only screen and (max-width:1096px) {
+     footer .wrapper .update {
+        width: 60%;
+    }
+     footer .wrapper .update .subscribe {
+        width: 68%;
+    }
+}
+@media only screen and (max-width:1071px) {
+     footer .wrapper .update {
+        width: 70%;
+    }
+     footer .wrapper .update .subscribe {
+        width: 68%;
+    }
+}
+
+@media only screen and (max-width:952px) {
     footer .wrapper .update {
         height: 40%;
         width: 75%;
@@ -479,7 +570,13 @@ footer .wrapper .last .last_child{
         width: 75%;
     }
 }
-@media only screen and (max-width:925px){
+@media only screen and (max-width:1052px){
+    footer .wrapper .update {
+        height: 40%;
+        width: 70%;
+    }
+}
+@media only screen and (max-width:1071px){
     footer .wrapper {
         width: 95%;
         height: 95%;
@@ -487,6 +584,9 @@ footer .wrapper .last .last_child{
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+    }
+    footer .wrapper .update .subscribe {
+    width: 57%;
     }
    /* term & conditions */
 
@@ -502,14 +602,44 @@ footer .wrapper .last img {
     order: -1;
 }
 }
-@media only screen and (max-width:910px) and (min-width:853px) {
+@media only screen and (max-width:1015px){
+    footer .wrapper .update .subscribe {
+        width: 58%;
+    }
+}
+@media only screen and (max-width:997px){
+    footer .wrapper .update .subscribe {
+        width: 60%;
+    }
+}
+@media only screen and (max-width:964px){
+    footer .wrapper .update .subscribe {
+        width: 62%;
+    }
+}
+@media only screen and (max-width:933px){
+    footer .wrapper .update .subscribe {
+        width: 63%;
+    }
+}
+@media only screen and (max-width:918px){
+    footer .wrapper .update .subscribe {
+        width: 65%;
+    }
+}
+@media only screen and (max-width:910px) {
     footer .wrapper .update {
         height: 40%;
-        width: 80%;
+        width: 70%;
     }
 
     footer .wrapper .bottom {
         width: 80%;
+    }
+}
+@media only screen and (max-width:890px) {
+ footer .wrapper .update .subscribe {
+        width: 68%;
     }
 }
 @media only screen and (max-width:853px) {
@@ -547,6 +677,7 @@ footer .wrapper .last img {
         font-size: var(--button-font);
         display: flex;
         align-items: center;
+        text-align: center;
     }
 
     footer .wrapper .bottom {
@@ -581,6 +712,7 @@ footer .wrapper .last img {
         font-size: var(--button-font);
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
 
@@ -638,6 +770,7 @@ footer .wrapper .last img {
     footer .wrapper .last {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
     }
 
     footer .wrapper .last img {
@@ -691,6 +824,9 @@ footer .wrapper .last img {
         justify-content: center;
         align-items: center;
     }
+        footer .wrapper .last {
+            height: 30%;
+        }
 }
 @media only screen and (max-width:390px) {
     footer .wrapper {

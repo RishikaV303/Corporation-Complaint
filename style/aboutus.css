@@ -286,6 +286,7 @@ header .container a:hover{
 #section_three .wrapper .parent .transparency .icon_one img{
     width: 100%;
     height: 100%;
+    object-fit: contain ;
 }
 #section_three .wrapper .parent .transparency .content{
     width: 90%;
@@ -313,6 +314,7 @@ header .container a:hover{
 #section_three .wrapper .parent .accountability .icon_two img{
     width: 100%;
     height: 100%;
+    object-fit: contain ;
 }
 #section_three .wrapper .parent .accountability .content{
     width: 90%;
@@ -341,6 +343,8 @@ header .container a:hover{
 #section_three .wrapper .parent .justice .icon_three img{
     width: 100%;
     height: 100%;
+        object-fit: contain ;
+
 }
 #section_three .wrapper .parent .justice .content{
     width: 90%;

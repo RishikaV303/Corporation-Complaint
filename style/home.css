@@ -456,6 +456,7 @@
 #section_five .benefits .bcard .bcard_image img{
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 #section_five .benefits .bcard h6 {
     color: var(--primary-color);
@@ -945,7 +946,7 @@
 }
 @media only screen and (max-width:595px) {
     #section_five {
-        height: 120vh;
+        height: 135vh;
     }
     #section_five h1 {
         font-size: 24px;
@@ -954,9 +955,9 @@
         justify-content: start;
         align-content: center;
     }
-    #section_five .benefits .bcard {
-        width: 36%;
-        height: 24%;
+      #section_five .benefits .bcard {
+        width: 49%;
+        height: 26%;
     }
 }
 
@@ -998,6 +999,10 @@
     }
     #section_three p {
         font-size: 18px;
+    }
+       #section_five .benefits .bcard {
+        width: 48%;
+        height: 26%;
     }
 }
 @media only screen and (max-width:550px) {
@@ -1222,6 +1227,11 @@
 @media only screen and (max-width:343px) {
     #section_three p {
         font-size: 14px;
+    }
+}
+@media only screen and (max-width:327px) {
+    #section_five h1 {
+        font-size: 18px;
     }
 }
 @media only screen and (max-width:306px) {
