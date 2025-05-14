@@ -213,14 +213,14 @@ header .wrapper .container a:hover{
     height: 80%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 #section_two .gallery .row_one{
     width: 100%;
     height: 50%;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 #section_two .gallery .row_one .photo_one{
     height: 100%;
@@ -247,7 +247,7 @@ header .wrapper .container a:hover{
     height: 50%;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 #section_two .gallery .row_two .photo_one{
     height: 100%;
@@ -271,7 +271,7 @@ header .wrapper .container a:hover{
 }
 #section_two .content {
     width: 100%;
-    height: 20%;
+    height: 10%;
     display: flex;
     flex-direction: column;
    align-items: center;
@@ -353,25 +353,30 @@ header .wrapper .container a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 5px;
+    gap: 10px;
 }
-#section_three .form_side .content form input{
+#section_three .form_side .content form .form{
+ width: 100%;
+    height: 20%;
+}
+#section_three .form_side .content form .form input{
     width: 98%;
-    height: 7%;
+    height: 60%;
     border-radius: 5px;
     background-color: transparent;
     border: 1px solid #000000;
     padding-left: 5px;
 }
 
-#section_three .form_side .content form .adjust{
-    font-size: 14px;
+#section_three .form_side .content form .form .adjust{
+    height: 10%;
+    font-size: 12px;
     font-weight: 400;
     color: #000000;
 }
 #section_three .form_side .content form textarea{
     width: 98%;
-    height: 15%;
+    height: 60%;
     border-radius: 5px;
     background-color: transparent;
     border: 1px solid #000000;
@@ -381,7 +386,7 @@ header .wrapper .container a:hover{
     border: none;
     border-radius: 20px;
     width: 30%;
-    height: 8%;
+    height: 10%;
     background-color: var(--primary-color);
     align-self: center;
     color: #000000;
@@ -488,6 +493,9 @@ header .wrapper .container a:hover{
 }
 
 @media only screen and (max-width:893px) {
+header .wrapper nav .nav-wrap ul li a .volunteer {
+    border-bottom: none;
+    }
     .container h1 {
         width: 55%;
         font-size: 42px;
@@ -591,7 +599,7 @@ header .wrapper .container a:hover{
 
 @media only screen and (max-width:798px) {
     #section_two {
-        height: 150vh;
+        height: 120vh;
     }
     
     #section_two .content h1 {
@@ -651,7 +659,7 @@ header .wrapper .container a:hover{
         height: 60%;
     }
     #section_three {
-        height: 200vh;
+        height: 130vh;
     }
 
     #section_three .wrapper {
@@ -660,7 +668,7 @@ header .wrapper .container a:hover{
 
     #section_three .side_image {
         width: 100%;
-        height: 20%;
+        height: 30%;
     }
 
     #section_three .form_side .heading h2 {
@@ -785,6 +793,10 @@ header .wrapper .container a:hover{
     .container p {
         width: 70%;
     }
+     #section_three .form_side .content form #submit {
+    width: 40%;
+    height: 7%;
+ }
 }
 
 @media only screen and (max-width:410px) {
@@ -826,7 +838,11 @@ header .wrapper .container a:hover{
         width: 85%;
     }
 }
-
+@media only screen and (max-width:329px){
+    #section_four .wrapper .members .scroller .person-card .person-content-container h1 {
+        font-size: 16px;
+    }
+}
 @media only screen and (max-width:320px) {
     header .wrapper nav .nav-wrap .logo {
         width: 60%;

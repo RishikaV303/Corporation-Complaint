@@ -533,7 +533,7 @@ header .container a:hover {
         flex-wrap: wrap;
         align-content: center;
         justify-content: start;
-        gap: 10px;
+        gap: 20px;
 
     }
 
@@ -582,7 +582,7 @@ header .container a:hover {
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
-        gap: 10px;
+        gap: 20px;
 
     }
 

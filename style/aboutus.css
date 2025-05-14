@@ -945,6 +945,27 @@ header .container a:hover{
         font-size: 10px;
     }
 }
+@media only screen and (max-width:564px) {
+   #section_two .whole .vision .vimg {
+        height: 60%;
+        width: 90%;
+    }
+
+    #section_two .whole .vision .vcontent {
+        height: 60%;
+        width: 90%;
+    }
+
+    #section_two .whole .mission .mimg {
+        height: 60%;
+        width: 90%;
+    }
+
+    #section_two .whole .mission .mcontent {
+        height: 60%;
+        width: 90%;
+    }
+}
 @media only screen and (max-width:555px) {
     #section_three {
         height: 150vh;
@@ -1033,6 +1054,7 @@ header .container a:hover{
         font-size: 12px;
     }
 }
+
 @media only screen and (max-width:375px) {
     #section_five .wrapper .storycardone {
         width: 100%;
@@ -1056,10 +1078,5 @@ header .container a:hover{
 
     #section_five .wrapper .storycardtwo .storyimage {
         width: 90%;
-    }
-}
-@media only screen and (max-width:329px){
-    #section_four .wrapper .members .scroller .person-card .person-content-container h1 {
-        font-size: 16px;
     }
 }
