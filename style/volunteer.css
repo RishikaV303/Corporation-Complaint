@@ -202,6 +202,7 @@ header .wrapper .container a:hover{
     justify-content: center;
     gap: 30px;
 }
+
 #section_two h1{
     font-size: 32px;
 }
@@ -599,7 +600,7 @@ header .wrapper nav .nav-wrap ul li a .volunteer {
 
 @media only screen and (max-width:798px) {
     #section_two {
-        height: 120vh;
+        height: 100vh;
     }
     
     #section_two .content h1 {
