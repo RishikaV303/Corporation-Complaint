@@ -41,7 +41,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
 }
 #section_two .content_two {
     width: 90%;
@@ -51,12 +50,10 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: aliceblue;
 }
 #section_two .content_two .heading{
 height: 10%;
 width: 100%;
-background-color: cadetblue;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -81,7 +78,6 @@ align-items: center;
     height: 90%;
     justify-content: space-evenly;
     padding-top: 30px;
-    background-color: brown;
 }
 
 /* card1 */
@@ -599,7 +595,8 @@ align-items: center;
 @media only screen and (max-width:1133px) {
     #section_two {
         width: 100%;
-        height: 80vh;
+        height: auto;
+         padding: 40px 0px;
     }
 
     #section_two .content_two .cards .card_one h5 {
@@ -636,12 +633,13 @@ align-items: center;
 
 }
 @media only screen and (max-width:1049px) {
-
+/* 
     #section_two{
         height: 70vh;
-    }
+    } */
     #section_three{
-        height: 120vh;
+        height: auto;
+        padding: 30px 0px;
     }
     #section_three .content_three {
         width: 90%;
@@ -758,10 +756,10 @@ align-items: center;
     }
 }
 @media only screen and (max-width:769px) {
-    #section_two {
+    /* #section_two {
         width: 100%;
         height: 180vh;
-    }
+    } */
 
     #section_two .content_two .cards {
         height: 90%;
@@ -823,7 +821,8 @@ align-items: center;
         font-size: 16px;
     }
     #section_four{
-        height: 250vh;
+        height: auto;
+         padding: 40px 0px;
         display: flex;
     justify-content: center;
     align-items: center;
@@ -837,15 +836,15 @@ align-items: center;
     }
     #section_four .ref_one {
         width: 47%;
-        height: 40%;
+        height: 500px;
     }
     #section_four .ref_two {
         width: 47%;
-        height: 40%;
+        height: 500px;
     }
     #section_four .ref_three {
         width: 47%;
-        height: 40%;
+        height: 500px;
     }
 
 }
@@ -898,9 +897,9 @@ align-items: center;
     }
 }
 @media only screen and (max-width:620px) {
-    #section_two {
+    /* #section_two {
         height: 150vh;
-    }
+    } */
 
     #section_two .content_two .cards .card_one h5 {
         font-size: 22px;
@@ -970,9 +969,9 @@ align-items: center;
 }
 
 @media only screen and (max-width:570px) {
-    #section_three {
+    /* #section_three {
         height: 180vh;
-    }
+    } */
     #section_three .content_three {
         width: 90%;
         display: flex;
@@ -1019,38 +1018,45 @@ align-items: center;
     }
 }
 @media only screen and (max-width:520px) {
-    #section_two {
-        height: 450vh;
-        background-color: chartreuse;
+    /* #section_two {
+        height: 410vh;
+    } */
+    #section_two .content_two .heading{
+        height: 5%;
     }
-#section_two .content_two .heading{
-height: 5%;
+#section_two .content_two {
+    width: 90%;
+    height: 95%;
 }
-
     #section_two .content_two .cards {
-        height: 95%;
-        gap: 30px;
+        height: 100%;
+        gap: 10px;
     }
 
     #section_two .content_two .cards .card_one {
-        width: 80%;
+        width: 75%;
         height: 25%;
     }
 
     #section_two .content_two .cards .card_two {
-        width: 80%;
+        width: 75%;
         height: 25%;
     }
 
     #section_two .content_two .cards .card_three {
-        width: 80%;
+        width: 75%;
         height: 25%;
     }
 
     #section_two .content_two .cards .card_four {
-        width: 80%;
+        width: 75%;
         height: 25%;
     }
+
+#section_two .content_two .cards .card_one img {
+    height:18;
+    width: 100%;
+}
 
     #section_two .content_two .cards .card_one h5 {
         font-size: 32px;
@@ -1073,30 +1079,30 @@ height: 5%;
     }
 
     #section_two .content_two .cards .card_one p {
-        font-size: 24px;
+        font-size: 18px;
         text-align: center;
     }
 
     #section_two .content_two .cards .card_two p {
-        font-size: 24px;
+        font-size: 18px;
         text-align: center;
     }
 
     #section_two .content_two .cards .card_three p {
-        font-size: 24px;
+        font-size: 18px;
         text-align: center;
     }
 
     #section_two .content_two .cards .card_four p {
-        font-size: 24px;
+        font-size: 18px;
         text-align: center;
     }
 
 }
 @media only screen and (max-width:500px) {
-    #section_three {
+    /* #section_three {
         height: 190vh;
-    }
+    } */
     #section_four {
         height: 300vh;
     }
@@ -1125,10 +1131,9 @@ height: 5%;
     }
 }
 @media only screen and (max-width:487px) {
-    #section_two {
+    /* #section_two {
         height: 390vh;
-        background-color: rgb(63, 66, 68);
-    }
+    } */
 }
 @media only screen and (max-width:474px) {
     #section_five {
@@ -1148,9 +1153,9 @@ height: 5%;
     }
 }
 @media only screen and (max-width:410px) {
-    #section_two {
+    /* #section_two {
         height: 420vh;
-    }
+    } */
 }
 
 
@@ -1163,11 +1168,11 @@ height: 5%;
     }
 }
 @media only screen and (max-width:378px) {
-    #section_two {
+    /* #section_two {
         height: 390vh;
-    }
-    #section_two .content_two h1 {
-        font-size: 22p0;    
+    } */
+    #section_two .content_two .heading h1 {
+        font-size: 22px;    
     }
     #section_two .content_two {
         height: 95%;
@@ -1233,9 +1238,9 @@ height: 5%;
         text-align: center;
     }
     /* 3rd */
-    #section_three {
-        height: 200vh;
-    }
+    /* #section_three {
+        height: 170vh;
+    } */
     /* 5th */
     #section_five h1 {
         font-size: 20px;

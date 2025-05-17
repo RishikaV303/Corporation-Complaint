@@ -1080,3 +1080,9 @@ header .container a:hover{
         width: 90%;
     }
 }
+        @media only screen and (max-width:329px) {
+                #section_four .wrapper .members .scroller .person-card .person-content-container h1 {
+        font-size: 16px;
+    }
+
+        }

@@ -272,7 +272,7 @@ header .wrapper .container a:hover{
 }
 #section_two .content {
     width: 100%;
-    height: 10%;
+    height: 20%;
     display: flex;
     flex-direction: column;
    align-items: center;
@@ -386,12 +386,18 @@ header .wrapper .container a:hover{
 #section_three .form_side .content form #submit{
     border: none;
     border-radius: 20px;
-    width: 30%;
-    height: 10%;
+    width: 150px;
+        height: 70px;
     background-color: var(--primary-color);
+    font-family: var(--text-family);
+    font-size: var(--button-font-two);
+    font-weight: var(--text-semibold);
     align-self: center;
     color: #000000;
-    font-weight: 550;
+}
+#section_three .form_side .content form #submit:hover{
+ background-color: var(--hover-color);
+    color: white;
 }
 /* section 3 end */
 /* section 4 start */
@@ -600,7 +606,7 @@ header .wrapper nav .nav-wrap ul li a .volunteer {
 
 @media only screen and (max-width:798px) {
     #section_two {
-        height: 100vh;
+        height: 130vh;
     }
     
     #section_two .content h1 {
@@ -794,10 +800,10 @@ header .wrapper nav .nav-wrap ul li a .volunteer {
     .container p {
         width: 70%;
     }
-     #section_three .form_side .content form #submit {
+     /* #section_three .form_side .content form #submit {
     width: 40%;
     height: 7%;
- }
+ } */
 }
 
 @media only screen and (max-width:410px) {
