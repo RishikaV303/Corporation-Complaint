@@ -352,6 +352,7 @@ header .container a:hover {
 #section_three .cards .update .image img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 #section_three .cards .update .content {
@@ -402,6 +403,7 @@ header .container a:hover {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    font-family: var(--text-family);
 }
 
 #section_four .resourse {
@@ -443,6 +445,11 @@ header .container a:hover {
     }
 }
 
+@media only screen and (max-width:1081px) {
+#section_four .resourse h2 {
+    font-size: 20px;
+}
+}
 @media only screen and (max-width:966px) {
     #section_three .cards .update {
         width: 35%;
@@ -558,7 +565,6 @@ header .container a:hover {
 
     #section_four .resourse h2 {
         width: 30%;
-        font-size: 30px;
     }
 }
 
@@ -652,9 +658,7 @@ header .container a:hover {
      #section_three .cards .update {
         width: 90%;
      }
-     #section_four .resourse h2 {
-        font-size: 24px;
-    }
+   
 }
 
 @media only screen and (max-width:399px) {

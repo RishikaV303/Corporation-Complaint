@@ -266,7 +266,7 @@ footer .wrapper .bottom {
 
 footer .wrapper .bottom .icons {
     display: flex;
-    gap: 10px;
+    gap: 25px;
 }
 
 footer .wrapper .bottom .icons i {
@@ -697,7 +697,7 @@ footer .wrapper .last .last_child {
         justify-content: space-between;
         align-items: center;
     }
-
+    
     footer .wrapper .update .subscribe .email {
         width: 40%;
     }
@@ -709,7 +709,7 @@ footer .wrapper .last .last_child {
         justify-content: center;
         align-items: center;
     }
-
+    
     footer .wrapper .update p {
         /* width: 80%; */
         height: 30%;
@@ -737,7 +737,10 @@ footer .wrapper .last .last_child {
         flex-direction: column;
         justify-content: center;
     }
-
+    footer .wrapper .update .subscribe {
+        height: 50px;
+    }
+    
     footer .wrapper .update p {
         width: 90%;
         height: 30%;
@@ -775,8 +778,6 @@ footer .wrapper .last .last_child {
     }
 
 }
-
-@media only screen and (max-width:620px) {}
 
 @media only screen and (max-width:594px) {
     footer .wrapper .update {
@@ -821,10 +822,11 @@ footer .wrapper .last .last_child {
     footer .wrapper {
         width: 97%;
         height: 97%;
+        gap: 10px;
     }
 
     footer .wrapper .update {
-        height: 30%;
+        height: 45%;
         width: 85%;
     }
 
@@ -849,6 +851,7 @@ footer .wrapper .last .last_child {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        gap: 10px;
     }
 
     footer .wrapper .bottom {
@@ -871,20 +874,26 @@ footer .wrapper .last .last_child {
     }
 }
 
+@media only screen and (max-width:418px) {
+ footer .wrapper .update .subscribe {
+        width: 300px;
+    }
+}
 @media only screen and (max-width:390px) {
     footer .wrapper {
         width: 98%;
         height: 97%;
+        gap: 20px;
     }
 
     footer .wrapper .update {
-        height: 30%;
+        height: 50%;
         width: 90%;
     }
-
-    footer .wrapper .update .subscribe {
-        width: 300px;
+footer .wrapper .update .subscribe {
+        height: 40px;
     }
+   
 
     footer .wrapper .update .subscribe .button {
         width: 120px;

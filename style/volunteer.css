@@ -226,22 +226,22 @@ header .wrapper .container a:hover{
 #section_two .gallery .row_one .photo_one{
     height: 100%;
     width: 60%;
-  border-radius: 20%;
-  object-fit: cover;    
 }
 #section_two .gallery .row_one .photo_one img{
     height: 100%;
     width: 100%;
+    object-fit: cover;    
+    border-radius: 10px;
 }
 #section_two .gallery .row_one .photo_two{
     height: 100%;
     width: 30%;
-    border-radius: 20%;
-    object-fit: cover;
 }
 #section_two .gallery .row_one .photo_two img{
     height: 100%;
     width: 100%;
+   object-fit: cover;    
+    border-radius: 10px;
 }
 #section_two .gallery .row_two{
     width: 100%;
@@ -253,22 +253,22 @@ header .wrapper .container a:hover{
 #section_two .gallery .row_two .photo_one{
     height: 100%;
     width: 60%;
-    border-radius: 20%;
-    object-fit: cover;
 }
 #section_two .gallery .row_two .photo_one img{
     height: 100%;
     width: 100%;
+    object-fit: cover;    
+    border-radius: 10px;
 }
 #section_two .gallery .row_two .photo_two{
     height: 100%;
     width: 30%;
-    border-radius: 20%;
-    object-fit: cover;
 }
 #section_two .gallery .row_two .photo_two img{
     height: 100%;
     width: 100%;
+   object-fit: cover;    
+    border-radius: 10px;
 }
 #section_two .content {
     width: 100%;
@@ -367,6 +367,8 @@ header .wrapper .container a:hover{
     background-color: transparent;
     border: 1px solid #000000;
     padding-left: 5px;
+    font-family: var(--text-family);
+
 }
 
 #section_three .form_side .content form .form .adjust{
@@ -381,7 +383,8 @@ header .wrapper .container a:hover{
     border-radius: 5px;
     background-color: transparent;
     border: 1px solid #000000;
-    padding-left: 5px;
+    padding: 10px 0px 0px 5px;
+    font-family: var(--text-family);
 }
 #section_three .form_side .content form #submit{
     border: none;
