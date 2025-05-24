@@ -98,7 +98,7 @@ header .wrapper nav .nav-wrap #button {
     font-family: var(--text-family);
     font-size: var(--button-font);
     font-weight: var(--text-semibold);
-    padding: 15px 47px;
+    padding: 13px 45px;
 }
 header .wrapper nav .nav-wrap #button:hover {
     background-color: var(--hover-color);
@@ -230,8 +230,8 @@ header .wrapper .container a:hover{
 #section_two .gallery .row_one .photo_one img{
     height: 100%;
     width: 100%;
-    object-fit: cover;    
-    border-radius: 10px;
+    border-radius: 20px;
+    object-fit: cover;
 }
 #section_two .gallery .row_one .photo_two{
     height: 100%;
@@ -240,8 +240,9 @@ header .wrapper .container a:hover{
 #section_two .gallery .row_one .photo_two img{
     height: 100%;
     width: 100%;
+     border-radius: 20px;
    object-fit: cover;    
-    border-radius: 10px;
+  
 }
 #section_two .gallery .row_two{
     width: 100%;
@@ -257,8 +258,9 @@ header .wrapper .container a:hover{
 #section_two .gallery .row_two .photo_one img{
     height: 100%;
     width: 100%;
-    object-fit: cover;    
-    border-radius: 10px;
+    border-radius: 20px;
+    object-fit: cover;
+        
 }
 #section_two .gallery .row_two .photo_two{
     height: 100%;
@@ -267,8 +269,8 @@ header .wrapper .container a:hover{
 #section_two .gallery .row_two .photo_two img{
     height: 100%;
     width: 100%;
-   object-fit: cover;    
-    border-radius: 10px;
+     border-radius: 20px;
+   object-fit: cover;
 }
 #section_two .content {
     width: 100%;

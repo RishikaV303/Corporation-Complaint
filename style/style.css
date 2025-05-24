@@ -91,6 +91,7 @@ header nav .nav-wrap .logo {
 header nav .nav-wrap .logo img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 header nav .nav-wrap a {
