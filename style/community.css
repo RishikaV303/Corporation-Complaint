@@ -125,9 +125,10 @@ header nav .nav-wrap ul li a .community {
 /* nav end */
 /* banner */
 .container {
-    background: url(../Assets/Images/community/banner.jpg);
+    background: url(../Assets/Images/community/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 90%;
     width: 100%;
     color: white;
